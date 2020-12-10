@@ -1,13 +1,13 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Advance Mathematic MCOMD0AMA"
+author: "Dr. Alexios Louridas"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "This book contains the material that would be covered in the module. It would start from Basic GCSE maths to some more advance topics for Computing."
 ---
 
 # Prerequisites
