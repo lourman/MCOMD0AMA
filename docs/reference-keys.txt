@@ -2,7 +2,15 @@ fig:nice-fig
 tab:nice-tab
 prerequisites
 intro
-literature
+numbers
+types-of-number
+bidmas
+lcm-and-hcf
+fractions
+decimals
+percentages
+rounding-numbers
+standard-form
 methods
 applications
 example-one

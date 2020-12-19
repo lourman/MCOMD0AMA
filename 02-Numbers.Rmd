@@ -1,3 +1,19 @@
-# Literature
+# Numbers {#numbers}
 
-Here is a review of existing methods.
+This chapter will introduce you to numbers in mathematics.
+
+## Types of Number
+
+## BIDMAS
+
+## LCM and HCF
+
+## Fractions
+
+## Decimals
+
+## Percentages
+
+## Rounding Numbers
+
+## Standard Form
