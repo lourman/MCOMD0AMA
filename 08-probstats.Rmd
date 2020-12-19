@@ -1,0 +1,17 @@
+# Probability and Statistics
+
+## Probability basics
+
+## Counting Outcomes
+
+## Tree Diagrams
+
+## Sets and Venn Diagrams
+
+## Sampling and Data collection
+
+## Mean, Median, Mode and range
+
+## Frequency tables
+
+## Plots 
