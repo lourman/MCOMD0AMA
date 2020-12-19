@@ -1,7 +1,5 @@
 fig:nice-fig
 tab:nice-tab
-prerequisites
-intro
 numbers
 types-of-number
 bidmas
@@ -47,3 +45,4 @@ plots
 polynomials-1
 logarithms-and-exponentials
 introduction-to-discrete-mathematics
+intro
