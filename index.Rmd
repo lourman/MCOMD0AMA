@@ -12,6 +12,10 @@ description: "This book contains the material that would be covered in the modul
 
 # Introduction {-}
 
+Welcome to Advance Mathematics Module (MCOMD0AMA). This module will cover material from GCSE to A Level maths, that is relevant and required for any computing course in this University.
+
+These pages are comprised of theory and excersises to h 
+
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
 The **bookdown** package can be installed from CRAN or Github:
