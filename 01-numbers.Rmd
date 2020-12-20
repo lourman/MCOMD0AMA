@@ -1,6 +1,13 @@
 # Numbers {#numbers}
 
-This chapter will introduce you to numbers in mathematics.
+This chapter will introduce you to numbers and their significance in mathematics and computing.
+Since the beginning of humanity numbers were used to be able to count. The first evidence found that humans were counting was discovered in 1970 by _Peter Beaumont_ near the Lebombo Mountains. The artifact was a baboon fibula that had 29 straight cuts (see figure 1.1). It is hypothesised that it was used to count the menstrual cycles of women. Thus, it can be said that the first astronomers / mathematicians were women.  
+
+```{r, out.width='100%', fig.align='center', fig.cap='he Lebombo bone 44, 000 BC (top) and the Ishango bone 20, 000 BC (bottom)', echo=FALSE}
+knitr::include_graphics('images/Lebombo-bone.png')
+```
+
+Numbers were and still are used to advance our civilization, from computing to art and music. From simple counting we have used numbers to calculate and measure. To achieve thought all of these advancements different types of numbers have been used, each having its own usage. 
 
 ## Types of Number
 
