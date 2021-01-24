@@ -18,12 +18,36 @@ Zero as a mathematical symbol has a turbulence timeline. Although its first appe
 One of the oldest and familiar number type are the natural numbers $N$.
 Natural numbers are used for counting and in arithmetic calculations. These include all whole numbers from 1 to infinity $\infty$
 
+```{r, out.width='40%', fig.align='center', fig.cap='Natural Numbers', echo=FALSE}
+knitr::include_graphics('images/Natural Numbers.png')
+```
+
 ### Whole Numbers (W)
-The most common numbers used are for counting and are used in arithmetic calculations. These are whole numbers from 1 to infinity
+The most common numbers used are for counting and are used in arithmetic calculations. These are whole numbers from 1 to infinity and zero.
+
+```{r, out.width='40%', fig.align='center', fig.cap='Whole Numbers', echo=FALSE}
+knitr::include_graphics('images/Whole Numbers.png')
+```
 
 ### Integer Numbers (Z)
+Another set of numbers are all whole numbers including negative whole numbers. The range of integer numbers are from negative infinity to zero and from zero to positive infinity.
+
+```{r, out.width='60%', fig.align='center', fig.cap='Integer Numbers', echo=FALSE}
+knitr::include_graphics('images/Integer Numbers.png')
+```
+Integers are a commonly used data type in computer programming. For example, whenever a number is being incremented, 9isuch as within a "for loop" or "while loop," an integer is used. Integers are also used to determine an item's location within an array.
+
+When two integers are added, subtracted, or multiplied, the result is also an integer. However, when one integer is divided into another, the result may be an integer or a fraction. For example, 6 divided by 3 equals 2, which is an integer, but 6 divided by 4 equals 1.5, which contains a fraction. Decimal numbers may either be rounded or truncated to produce an integer result.
+
 ### Rational Numbers (Q)
+All numbers that can be expressed as a fraction (ratio) are called rational numbers, as long as the denominator is not zero. 
+
+In computer science, it is significant if a number is rational or irrational. A rational number can be stored as an exact numeric value, while an irrational number must be estimated.
+
 ### Irrantional Numbers (R\Q)
+
+In computer science, it is significant if a number is rational or irrational. A rational number can be stored as an exact numeric value, while an irrational number must be estimated.
+
 ### Real Numbers (R)
 ### Complex Numbers (C)
 ## Algebraic Properties
