@@ -1,4 +1,5 @@
-fig:unnamed-chunk-3
+tab:unnamed-chunk-1
+fig:unnamed-chunk-2
 fig:nice-fig
 tab:nice-tab
 numbers
@@ -21,7 +22,7 @@ inverse
 cancelation
 zero-factor
 negation
-bidmas
+bidmas-or-bodmas
 lcm-and-hcf
 fractions
 decimals

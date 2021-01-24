@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. Alexios Louridas" />
 
 
-<meta name="date" content="2021-01-23" />
+<meta name="date" content="2021-01-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -134,7 +134,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">Advance Mathematics MCOMD0AMA</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#module-structure"><i class="fa fa-check"></i>Module Structure</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#assignment"><i class="fa fa-check"></i>Assignment</a></li>
+</ul></li>
 <li class="chapter" data-level="1" data-path="numbers.html"><a href="numbers.html"><i class="fa fa-check"></i><b>1</b> Numbers</a><ul>
 <li class="chapter" data-level="1.1" data-path="numbers.html"><a href="numbers.html#types-of-number"><i class="fa fa-check"></i><b>1.1</b> Types of Number</a><ul>
 <li class="chapter" data-level="1.1.1" data-path="numbers.html"><a href="numbers.html#number-zero"><i class="fa fa-check"></i><b>1.1.1</b> Number Zero</a></li>
@@ -157,7 +160,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.2.8" data-path="numbers.html"><a href="numbers.html#zero-factor"><i class="fa fa-check"></i><b>1.2.8</b> Zero-factor</a></li>
 <li class="chapter" data-level="1.2.9" data-path="numbers.html"><a href="numbers.html#negation"><i class="fa fa-check"></i><b>1.2.9</b> Negation</a></li>
 </ul></li>
-<li class="chapter" data-level="1.3" data-path="numbers.html"><a href="numbers.html#bidmas"><i class="fa fa-check"></i><b>1.3</b> BIDMAS</a></li>
+<li class="chapter" data-level="1.3" data-path="numbers.html"><a href="numbers.html#bidmas-or-bodmas"><i class="fa fa-check"></i><b>1.3</b> BIDMAS or BODMAS</a></li>
 <li class="chapter" data-level="1.4" data-path="numbers.html"><a href="numbers.html#lcm-and-hcf"><i class="fa fa-check"></i><b>1.4</b> LCM and HCF</a></li>
 <li class="chapter" data-level="1.5" data-path="numbers.html"><a href="numbers.html#fractions"><i class="fa fa-check"></i><b>1.5</b> Fractions</a></li>
 <li class="chapter" data-level="1.6" data-path="numbers.html"><a href="numbers.html#decimals"><i class="fa fa-check"></i><b>1.6</b> Decimals</a></li>
@@ -231,20 +234,82 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="header">
 <h1 class="title">Advance Mathematic MCOMD0AMA</h1>
 <p class="author"><em>Dr. Alexios Louridas</em></p>
-<p class="date"><em>2021-01-23</em></p>
+<p class="date"><em>2021-01-24</em></p>
 </div>
 <div id="introduction" class="section level1 unnumbered">
 <h1>Introduction</h1>
-<p>Welcome to Advance Mathematics Module (MCOMD0AMA). This module will cover material from GCSE to A Level maths, that is relevant and required for any computing course in this University.</p>
-<p>These pages are comprised of theory and excersises to h</p>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1"></a><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
-<span id="cb1-2"><a href="index.html#cb1-2"></a><span class="co"># or the development version</span></span>
-<span id="cb1-3"><a href="index.html#cb1-3"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.org/tinytex/" class="uri">https://yihui.org/tinytex/</a>.</p>
+<div id="module-structure" class="section level2 unnumbered">
+<h2>Module Structure</h2>
+<p>We are going to have 12 weeks of teaching. What we would like at the end of this module is for you to be able to have enough knowledge to be able to understand mathematics so you can easily understand concepts that you will find in your course that you are going to follow.</p>
+<p>Mathematics is not just about learning how to solve problems but</p>
+<p>The indicative schedule we are going to follow can be seen in table 0.1. Although we shall try and follow this schedule it all depends on you. If you believe that you need an extra session to describe and master something then we are here to listen. Please tell us and we shall try to change it accordingly.</p>
+<table>
+<caption><span id="tab:unnamed-chunk-1">Table 0.1: </span>Indicative Content Schedule.</caption>
+<thead>
+<tr class="header">
+<th align="center">Session</th>
+<th align="center">Indicative Content</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">0</td>
+<td align="center">Numbers</td>
+</tr>
+<tr class="even">
+<td align="center">1</td>
+<td align="center">Algebra - Basics</td>
+</tr>
+<tr class="odd">
+<td align="center">2</td>
+<td align="center">Algebra - Quadratics and Simultaneous Equations</td>
+</tr>
+<tr class="even">
+<td align="center">3</td>
+<td align="center">Geometry and thinking</td>
+</tr>
+<tr class="odd">
+<td align="center">4</td>
+<td align="center">Graphs and Coordinate Geometry</td>
+</tr>
+<tr class="even">
+<td align="center">5</td>
+<td align="center">Probability and Statistics</td>
+</tr>
+<tr class="odd">
+<td align="center">6</td>
+<td align="center">Polynomials</td>
+</tr>
+<tr class="even">
+<td align="center">7</td>
+<td align="center">Logarithms and Exponential</td>
+</tr>
+<tr class="odd">
+<td align="center">8</td>
+<td align="center">Introduction to Discrete Mathematics</td>
+</tr>
+<tr class="even">
+<td align="center">9</td>
+<td align="center">Systems</td>
+</tr>
+<tr class="odd">
+<td align="center">10</td>
+<td align="center">Summary and Revision, TCA</td>
+</tr>
+<tr class="even">
+<td align="center">11</td>
+<td align="center">Assignment</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="assignment" class="section level2 unnumbered">
+<h2>Assignment</h2>
+<p>TCA 40%
+The TCA will consist of a series of tasks, each examining one area of mathematics. Each task will include a practical element requiring students to interpret a specification, identify an appropriate area of mathematics and apply the relevant formulae to each problem in order calculate a solution. The aim of the TCA is to ensure students have a good grounding in basic mathematical concepts and will avoid any issues associated with plagiarism. Some, but not all topics will be assessed through the TCA.</p>
+<p>The second assessment will also be a group report and will consist of a single group task. The tasks will be based on front loaded teaching material and supplemented by students own independent research into the discipline. The aim of this assessment is to allow students to work more co-operatively within the field of mathematics and appreciate that it is possible to collectively solve complex problems by the use of functional or task decomposition. A typical group task might involve all or some of the following: an investigation into a novel domain; the derivation of appropriate mathematical formulae or models; the application of these to an identified domain problem; a formal proof; statistical analysis of any results; a forecast of results.</p>
 
+</div>
 </div>
             </section>
 

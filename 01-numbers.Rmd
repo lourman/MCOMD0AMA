@@ -84,7 +84,7 @@ a0 = 0a = 0
 -(-a) = a, (-a)b= a(-b) = -(ab), (-a)(-b) = ab
 
 
-## BIDMAS
+## BIDMAS or BODMAS
 
 ## LCM and HCF
 
