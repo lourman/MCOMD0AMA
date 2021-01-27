@@ -154,14 +154,26 @@ $3+5*2=...$
 Would it be equal to 16(if we do the addition first) or 13(if we do the multiplication first)?
 
 There rule that we need to apply is called the BODMAS or BIDMAS rule. These are acronyms for stand for:
-*B*rackets
-*O*rders or *I*ndices
-*D*ivision
-*M*ultiplication
-*A*ddition
-*S*subtraction
+
+**B**rackets
+
+**O**rders or **I**ndices
+
+**D**ivision
+
+**M**ultiplication
+
+**A**ddition
+
+**S**subtraction
+
 
 Using the above rule there are four priorities. First priority are the Brackets, second indices or powers, third are division and multiplication and fourth are addition and subtraction.
+
+If an expression contains multiplication and division try and evaluate left to right.
+Similarly if an expression contains addition and subtraction evaluate left to right.
+
+In programming languages the BODMAS rule is not applied literally, so for a computer language make sure you read and understand the rules of precedence that is applied. 
 
 ## LCM and HCF
 
