@@ -30,36 +30,50 @@ knitr::include_graphics('images/Whole Numbers.png')
 ```
 
 ### Integer Numbers (Z)
-Another set of numbers are all whole numbers including negative whole numbers. The range of integer numbers are from negative infinity to zero and from zero to positive infinity.
+Another important set of numbers, especially for computing, are all whole numbers including negative whole numbers.These numbers are called Integer numbers and the range covered are all integer numbers from negative infinity to zero and from zero to positive infinity.
 
 ```{r, out.width='60%', fig.align='center', fig.cap='Integer Numbers', echo=FALSE}
 knitr::include_graphics('images/Integer Numbers.png')
 ```
-Integers are a commonly used data type in computer programming. For example, whenever a number is being incremented, 9isuch as within a "for loop" or "while loop," an integer is used. Integers are also used to determine an item's location within an array.
 
-When two integers are added, subtracted, or multiplied, the result is also an integer. However, when one integer is divided into another, the result may be an integer or a fraction. For example, 6 divided by 3 equals 2, which is an integer, but 6 divided by 4 equals 1.5, which contains a fraction. Decimal numbers may either be rounded or truncated to produce an integer result.
+In computer programming these are the most used number set, as they are used in *loops* as well as determining locations in memory. These are the numbers that are more efficient to be processed by a CPU and thus in many situation developers would prefer to use integer maths for effciency.
+
+A significant property of integers is that when two integers are added, subtracted, or multiplied, the result is always another integer. However, when an integer is divided by another integer, the result can either be an integer or a fraction. This is very important especially in computing as a division of integers would change the type of variable you are using.
 
 ### Rational Numbers (Q)
-All numbers that can be expressed as a fraction (ratio) are called rational numbers, as long as the denominator is not zero. 
+All numbers that can be expressed as a fraction (ratio) of integers are called rational numbers, as long as the denominator is not zero. So, rational numbers include all integer numbers as all integer number can be divided by 1 and become a fraction. 
 
-In computer science, it is significant if a number is rational or irrational. A rational number can be stored as an exact numeric value, while an irrational number must be estimated.
 
 ### Irrantional Numbers (R\Q)
 
 In computer science, it is significant if a number is rational or irrational. A rational number can be stored as an exact numeric value, while an irrational number must be estimated.
 
+When dealing with rational numbers in computing these could be easily stored as two integers, but when dealing with irrational numbers usually an estimation is necessary.
+An example of that is the irrational number of the mathematical constant $\pi$. This constant is the ratio of the circumference of any circle to the diameter of that circle, regardless of the circle's size. The number of digits for $\pi$ are infinite $\infty$ and it would be impossible to store a number with unlimited digits, so it often estimate to be $3.14$.
+
 ### Real Numbers (R)
+If we include all rational and irrational numbers we get another in a set we get another set called real numbers.
+This number set is the most common and used by everyone, as it include all numbers. 
+
 ### Complex Numbers (C)
+When dealing with measuring or counting, real numbers are sufficient to describe what we want. When though we are trying to describe more than one dimension we find that real numbers are not enough and complicate measurements and calculations when trying to define or understand some of the notions of a point in space. The solution is to use multi-dimensional numbers, and through this it was found that besides real numbers there are also imaginary numbers. Imaginary numbers are nothing else that the multiplication of a real number to the "unit" of the imaginary number. The "unit" is the square root of -1 $\sqrt-1$.
+Complex numbers are all numbers that have a single real number and a single imaginary number.
+
 ## Algebraic Properties
 In this module we are going to be dealing mostly with real numbers, besides some exceptions. Thus, it would be good to know some of the basic algebraic properties of real numbers.
 
 ### Closure
-a + b and ab are real numbers
+When adding or multiplying two real numbers the result is always a real number.
+$a + b$ and $ab$ are always real numbers if $a$ and $b$ are real numbers.
 
 ### Commutative
-> We can change the position of the number for multiplication and addition without altering the result.
+While adding or multiplying real numbers the position of the numbers do not alter the result.
 
-a + b = b + a, ab = ba
+$a + b + c = b + a + c = a + c + b$
+
+similarly,
+
+$abc = cba$
 
 ```
 _Addition_
@@ -74,41 +88,80 @@ or
 55 + 42 + 24 + 23 = 144   
 
 _Multiplication_
-10 x 24 x 2 = 480
+10 * 24 * 2 = 480
 
 can also be written as
 
-2 x 24 x 10 = 480
+2 * 24 * 10 = 480
 
 or
 
-24 x 2 x 10 = 480
+24 * 2 * 10 = 480
 
 ```
 
 ### Associative
-(a+b) + c = a + (b+c), (ab)c = a(bc)
+When adding or multiplying real numbers, grouping does not have an effect on the result. By grouping we mean placing a parentheses $($ between numbers.
+
+$(a+b) + c = a + (b+c) = a + b + c$
+
+similarly,
+
+$(ab)c = a(bc) = abc$
 
 ### Distributive
-(a+b)c = ac+bc
+A multiplication can be right distributive if the multiplication appears from the right
+$(a+b)c = ac+bc$
+
+or left distributive if it appears from the left
+
+$c(a+b) = ca + cb$
 
 ### Identity
-a+0 = 0+a = a
+Any real number that a zero is added it always is equal to the number.
+$a+0 = 0+a = a$
 
 ### Inverse
-a + (-a) = 0, a(1/a) = 1
+The inverse property of addition states that any number that is added to its opposite will be equal to zero
+$a + (-a) = 0$
+
+The inverse property of multiplication states that any number that is multiplied by its reciprocal will be equal to one.
+$a(1/a) = 1$
 
 ### Cancelation
-If a+x=a+y, then x=y
+Cancellation of a number can be done when dealing with real numbers that are not zero
+$a+x=a+y, then x=y$
+
+similarly for multiplication
+$ax=ay, then x=y$
 
 ### Zero-factor
-a0 = 0a = 0
+Any real number that is multiplied to a zero it always is equal to zero.
+$a0 = 0a = 0$
 
 ### Negation
--(-a) = a, (-a)b= a(-b) = -(ab), (-a)(-b) = ab
+If a positive real number is multiplied by another negative number the result is always negative. 
+$-(-a) = a, (-a)b= a(-b) = -(ab)$
+
+If a negative real number is multiplied by another negative number the result is always positive.
+$(-a)(-b) = ab$
 
 
 ## BIDMAS or BODMAS
+When trying to evaluate an expression we need to know which arithmetic operations we should apply first.
+For example
+$3+5*2=...$
+Would it be equal to 16(if we do the addition first) or 13(if we do the multiplication first)?
+
+There rule that we need to apply is called the BODMAS or BIDMAS rule. These are acronyms for stand for:
+*B*rackets
+*O*rders or *I*ndices
+*D*ivision
+*M*ultiplication
+*A*ddition
+*S*subtraction
+
+Using the above rule there are four priorities. First priority are the Brackets, second indices or powers, third are division and multiplication and fourth are addition and subtraction.
 
 ## LCM and HCF
 
