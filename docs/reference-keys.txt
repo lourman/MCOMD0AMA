@@ -3,6 +3,8 @@ fig:unnamed-chunk-2
 fig:unnamed-chunk-3
 fig:unnamed-chunk-4
 fig:unnamed-chunk-5
+fig:unnamed-chunk-6
+fig:unnamed-chunk-7
 fig:nice-fig
 tab:nice-tab
 numbers
@@ -12,7 +14,7 @@ natural-numbers-n
 whole-numbers-w
 integer-numbers-z
 rational-numbers-q
-irrantional-numbers-r
+irrantional-numbers-rq
 real-numbers-r
 complex-numbers-c
 algebraic-properties
@@ -26,12 +28,17 @@ cancelation
 zero-factor
 negation
 bidmas-or-bodmas
+what-are-prime-numbers
 lcm-and-hcf
+hcf
+lcm
+calculation-of-hcf-and-lcm
 fractions
 decimals
 percentages
 rounding-numbers
 standard-form
+excersises
 algebra-basics
 powers-and-roots
 expanding-brackets

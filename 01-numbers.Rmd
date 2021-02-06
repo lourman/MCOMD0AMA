@@ -44,7 +44,7 @@ A significant property of integers is that when two integers are added, subtract
 All numbers that can be expressed as a fraction (ratio) of integers are called rational numbers, as long as the denominator is not zero. So, rational numbers include all integer numbers as all integer number can be divided by 1 and become a fraction. 
 
 
-### Irrantional Numbers (R\Q)
+### Irrantional Numbers (R\\Q)
 
 In computer science, it is significant if a number is rational or irrational. A rational number can be stored as an exact numeric value, while an irrational number must be estimated.
 
@@ -175,7 +175,73 @@ Similarly if an expression contains addition and subtraction evaluate left to ri
 
 In programming languages the BODMAS rule is not applied literally, so for a computer language make sure you read and understand the rules of precedence that is applied. 
 
+## What are prime numbers
+
+Before we start looking at fractions we need to understand the concept of prime numbers. Prime numbers are integer numbers greater than 1 that can only be divided exactly (i.e. when divided they return an integer number) by themselves and 1. 
+
+A frequent question that is asked is if 1 is a prime number. The answer is NO!
+
+A nice article can be found here:
+\url{https://blogs.scientificamerican.com/roots-of-unity/why-isnt-1-a-prime-number/}
+
+A list of the first prime numbers are 2,3,5,7,11,13,17,19...
+
+To find the prime factors of any number you need to divide the number to a prime number, starting from the first one (2). If and only if, it is divisible then you include that prime number as a factor. You repeat this process with the result of the division until you only have prime numbers.
+
+Let us see an example:
+
+```{r, out.width='100%', fig.align='center', fig.cap='Prime Factorisation of 588', echo=FALSE}
+knitr::include_graphics('images/factorisation_1.png')
+```
+
 ## LCM and HCF
+Imagine you are a self employed software developer and you have a carpenter as a costumer. Your costumer wants an online web page together with a database store and online tools to help him with selecting wood sizes. The carpenter receives large pieces of wood of various sizes but he always ends up with a large amount of waste that sometimes he does not have the space to store. They want a tool to help them out with finding the best combination of what sizes of wood would be required that could be cut in equal lengths by producing the minimum waste.
+They also require to organise their wood delivery a bit better, as they would want the delivery from different suppliers to happen at different times.
+
+To solve the first part of the above problem one would need to find a common size between the pieces of wood that they already have in order to be able to cut them in equal strips.
+
+To solve the second part of the above problem one would need to find the how ofter that deliveries from different suppliers happen.
+
+Both of these problems can be partly solved by using what in mathematics is called the highest common factor (HCF) and the lowest common multiple (LCM).
+
+### HCF
+
+HCF can also be called with the names Greatest Common Measure(GCM) and Greatest Common Divisor(GCD).The HCF is the largest natural number that divides evenly into all numbers with zero remainder.
+
+The usual usage in real life is for helping us divide things into smaller sections. To arrange data or anything into rows and groups. 
+
+For example, for the set of numbers 18 and 12 the GCF(18,12) = 6. So 6 is the largest natural number that divides both 18 and 12 that produces a natural number.
+
+### LCM
+
+LCM can also be called with the names least common multiple or smallest common multiple (SCM). The LCM is the smallest natural number that is evenly divisible between multiple numbers.
+
+The usual usage in real life is for helping us find repeated events, to help us order enough material to satisfy manufacturing over a period of time and also to find when multiple repeatable events would coincide.
+
+A simple example would be the LCM(2,3) = 6. So 6 is the smallest natural number that can be divided by both 2 and 3 that produces a natural number.
+
+A multiple of an integer (whole number) is any integer that appears in its times table. For example, the multiples of 3 are 3, 6, 9, 12, and so on.
+
+A factor of an integer is any integer that divides the integer with no remainder. For example, the factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, and 36.
+
+### Calculation of HCF and LCM
+
+The first step to calculate HCF or LCM is to perform prime factorisation of each number.
+
+Once you have completed the factorisation of each number HCF and LCM can be calculated.
+
+To find HCF find all the similar prime factors of each factorisation and multiply them together.
+
+To find LCM find for each prime number the largest presence of each factorisation and multiply them.
+
+Let us see an example:
+
+```{r, out.width='100%', fig.align='center', fig.cap='HRF and LCM Calculation for three numbers', echo=FALSE}
+knitr::include_graphics('images/HCF_LCM.png')
+```
+
+In the example to find HCF you need to find where all prime factors appear on the same column and then multiply them.
+For LCM you find the maximum times a prime factor is being used and multiply them together.
 
 ## Fractions
 
@@ -186,3 +252,7 @@ In programming languages the BODMAS rule is not applied literally, so for a comp
 ## Rounding Numbers
 
 ## Standard Form
+
+## Excersises
+
+
